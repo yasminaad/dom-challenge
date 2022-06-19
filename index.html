@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign up</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+  
+
+    <form name="f1">
+        <center>Sign up</center> <br>
+        <div id="formulaire">
+            <label for="name">
+               <img src="./1-04-512.webp" width="20px" height="20px"  alt="">   Username</label>
+            <input type="text" name="name" id="name-case" required placeholder="username" onchange="validateForm()"
+             > <br>
+
+            <label for="email">
+            <img src="./images (123.jpg"   width="20px" height="20px"alt="">
+            
+            Email</label>
+            <input type="email" name="email" id="emailInput"  placeholder="email" onchange="ValidateEmail(inputText)"> <br>
+
+            <label for="pw"><img src="./téléchargement (1456.png"   width="20px" height="20px" alt="">
+                
+                Password</label>
+            <input type="password" name="pass" id="pwInput" placeholder="password" onchange="CheckPassword(pw) ">
+            <br>
+           <div class="btn"> <input type="submit" value="Submit" id="bts">
+            <br>
+            <input type="reset" value="Reset" id="btr"></div>
+    <script src="js.js"></script>
+</div>
+     </form>
+    
+    
+    
+</body>
+</html>
